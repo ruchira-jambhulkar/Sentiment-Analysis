@@ -1,6 +1,6 @@
 # Sentiment-Analysis
 
-Title: Sentiment Analysis on IMDB movie review dataset using NLP and Machine Learning approaches
+Title: Sentiment Analysis on IMDB movie review dataset using NLP and Machine Learning
 
 Dataset:
 
