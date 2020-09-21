@@ -40,5 +40,11 @@ The linear SVC model is implemented and it gives 90.28% accuracy with TfidfVecto
 
 - RNN with LSTM
 
+The LSTM model with Kears tokenizer gives only 50% accuracy 
+
+Conclusion:
+
+The Bi-directional LSTM performs poorly compared to Linear SVC. It takes more time to train.
+
 
 
