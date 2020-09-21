@@ -10,7 +10,7 @@ NLP Approaches:
 
 In this project, we take one review as example to understand the need of cleaning the text. The following text cleaning techniques are used:
 
-1. Removal of HTML contents like "<br>".
+1. Removal of HTML contents.
 
 2. Removal of special characters (\) and punctuations.
 
@@ -18,15 +18,16 @@ In this project, we take one review as example to understand the need of cleanin
 
 4. Implementing stemming and lemmatization to convert the various forms of word to a single form.
 
-In this project, we have checked both stemming and lemmatization. But the good result is obtained using lemmatization (for example: 'little' has become 'littl' using stemming but remained 'little' using lemmatization) hence lemmatization technique is used further.
+    In this project, we have checked both stemming and lemmatization. But the good result is obtained using lemmatization (for example: 'little' has become 'littl' 
+    using stemming but remained 'little' using lemmatization) hence lemmatization technique is used further.
 
 5. Vectorization Techniques to encode the numeric values.
 
-Following vectorization techniques are tried in our project:
+   Following vectorization techniques are tried in our project:
 
-CountVectorizer (Bag of Words Model)
-TfidfVectorizer (Bag of Words Model)
-Keras Tokenizer (Embedding)
+   CountVectorizer (Bag of Words Model)
+   TfidfVectorizer (Bag of Words Model)
+   Keras Tokenizer (Embedding)
 
 
 6. Fit the data to the ML model
